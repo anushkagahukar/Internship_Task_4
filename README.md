@@ -1,7 +1,4 @@
 # Internship_Task_4
-💻 Web Projects by Anushka Gahukar<br/>
-Welcome to my project collection!<br/>
-This repository contains three responsive and interactive web applications:<br/>
 
 🎨 Portfolio Website
 
