@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🛍️ Product Listings</h1>
+      <div class="controls">
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="home">Home</option>
+        </select>
+
+        <select id="priceFilter">
+          <option value="all">All Prices</option>
+          <option value="0-50">Under ₹50</option>
+          <option value="50-100">₹50 - ₹100</option>
+          <option value="100-1000">₹100 - ₹1000</option>
+        </select>
+
+        <select id="sortBy">
+          <option value="default">Sort By</option>
+          <option value="priceAsc">Price: Low to High</option>
+          <option value="priceDesc">Price: High to Low</option>
+          <option value="rating">Rating</option>
+        </select>
+      </div>
+    </header>
+
+    <main id="productList" class="product-grid">
+      <!-- Products will be injected here -->
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

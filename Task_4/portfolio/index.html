@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anushka Gahukar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <header>
+    <div class="container">
+      <h1>Anushka Gahukar</h1>
+      <p>B.Tech CSE Student | Symbiosis Institute of Technology</p>
+      <a href="assets/resume.pdf" download class="download-btn">📄 Download Resume</a>
+      <button id="themeToggle">🌓 Toggle Theme</button>
+    </div>
+  </header>
+
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <nav>
+    <ul id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <p>
+        Hi, I'm Anushka Gahukar, an undergraduate B.Tech student in Computer Science and Engineering at Symbiosis Institute of Technology, Nagpur. I have a strong foundation in programming and a passion for leveraging technology to solve real-world problems. I'm eager to connect with like-minded individuals, collaborate on innovative projects, and contribute to impactful solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science & Engineering</strong> | 2023–2027 <br> Symbiosis Institute of Technology, Nagpur</li>
+      <li><strong>HSC</strong> | 2021–2023 <br> Vijay Nimbalkar Junior College, Nagpur</li>
+      <li><strong>SSC</strong> | 2011–2021 <br> Modern High School, WCL, UMRER, Nagpur</li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>Introduction to Python Programming (AD141) | Red Hat, April 2024</li>
+      <li>Red Hat System Administration II (RH134) | Red Hat, February 2025</li>
+      <li>Database and SQL | Infosys Springboard, March 2025</li>
+      <li>Java Programming Fundamentals | Infosys Springboard, March 2025</li>
+      <li>Introduction to JavaScript | Great Learning, April 2024</li>
+      <li>Front End Development - HTML | Great Learning, March 2024</li>
+      <li>Front End Development - CSS | Great Learning, March 2024</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul class="project-list">
+      <li>
+        <strong>Nagpur Tourism Project</strong><br>
+        Developed a responsive and user-friendly tourism website showcasing key attractions, local culture, and travel information about Nagpur. Used HTML, CSS, and JavaScript for interactivity, including image sliders and navigation menus.
+      </li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Languages & Tech:</strong> C, Python, Java, HTML, CSS, JavaScript, SQL</p>
+    <p><strong>Tools:</strong> Microsoft Excel, Power BI, TinkerCAD, Google Slides</p>
+    <p><strong>IDEs:</strong> Jupyter Notebook, Eclipse</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><strong>Phone:</strong> +91-7743978711</p>
+    <p><strong>Email:</strong> anushkagahukar@gmail.com</p>
+    <p><strong>Location:</strong> Nagpur</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anushka-gahukar-aa553b293?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BW1ZzO5AhT8a%2FOfkjJllk%2Fw%3D%3D" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Anushka Gahukar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

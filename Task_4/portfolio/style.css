@@ -1,0 +1,183 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.light {
+  background-color: #f5f5f5;
+  color: #121212;
+}
+
+.container, section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #ccc;
+}
+
+.download-btn, #themeToggle {
+  margin: 1rem 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #00c853;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.download-btn:hover, #themeToggle:hover {
+  background-color: #00e676;
+}
+
+/* Nav */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #2c2c2c;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+body.light nav {
+  background-color: #ddd;
+}
+
+body.light nav a {
+  color: black;
+}
+
+/* Sections */
+section h2 {
+  margin-bottom: 1rem;
+  color: #00e676;
+}
+
+.about-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00e676;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+.project-list li {
+  margin-bottom: 1rem;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  background-color: #00c853;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00e676;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #1f1f1f;
+}
+
+body.light footer {
+  background-color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
