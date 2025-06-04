@@ -23,7 +23,8 @@ CSS3 (Flexbox, Media Queries)<br/>
 JavaScript (ES6)<br/>
 localStorage for theme and data persistence<br/>
 
-📁 Projects Overview
+📁 Projects Overview<br/>
+
 💼 1. Portfolio Website<br/>
 A personal portfolio website that highlights my skills, projects, education, certifications, and includes a working contact form.
 
