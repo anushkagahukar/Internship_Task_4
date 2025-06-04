@@ -11,12 +11,6 @@ This repository contains three responsive and interactive web applications:<br/>
 
 Each is built using HTML, CSS, and JavaScript, designed with a dark theme, and tailored for mobile responsiveness.<br/>
 
-🌐 Live Demos<br/>
-Project	Preview Link<br/>
-💼 Portfolio Website	View<br/>
-📝 To-Do List App	View<br/>
-🛒 Product Page	View<br/>
-
 🛠️ Technologies Used
 HTML5<br/>
 CSS3 (Flexbox, Media Queries)<br/>
@@ -84,7 +78,7 @@ Open each project folder and launch index.html in your browser.<br/>
 
 ![image](https://github.com/user-attachments/assets/5f4bf348-762e-4880-bf27-2844a1711dd8)
 
-📬 Contact & Connect
-If you have suggestions, want to collaborate, or simply want to connect:
+📬 Contact & Connect<br/>
+If you have suggestions, want to collaborate, or simply want to connect:<br/>
 Email: anushkagahukar@gmail.com
 
